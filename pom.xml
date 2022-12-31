@@ -49,6 +49,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>cicd-test-app</finalName>
     </build>
 
 </project>
