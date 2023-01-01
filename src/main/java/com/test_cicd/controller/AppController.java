@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("ci-cd/api")
 public class AppController {
-    
+
     @GetMapping("test")
     public String apiTest() {
         return "CICD Api, successfully deployed and Tested.";
