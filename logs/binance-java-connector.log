@@ -1,0 +1,42 @@
+2023-01-02 12:49:46.527[1672660186527] | INFO  | main       | o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.test_cicd.CicdTestProjectApplicationTests]: CicdTestProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-01-02 12:49:46.637[1672660186637] | INFO  | main       | o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.test_cicd.CicdTestProjectApplication for test class com.test_cicd.CicdTestProjectApplicationTests
+2023-01-02 12:49:46.987[1672660186987] | WARN  | main       | o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chikaagbo/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/chikaagbo/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-01-02 12:49:47.006[1672660187006] | INFO  | main       | c.t.CicdTestProjectApplicationTests  - Starting CicdTestProjectApplicationTests using Java 19 with PID 5134 (started by chikaagbo in /Users/chikaagbo/cicd_test_app)
+2023-01-02 12:49:47.007[1672660187007] | INFO  | main       | c.t.CicdTestProjectApplicationTests  - No active profile set, falling back to 1 default profile: "default"
+2023-01-02 12:49:48.026[1672660188026] | INFO  | main       | c.t.CicdTestProjectApplicationTests  - Started CicdTestProjectApplicationTests in 1.236 seconds (process running for 2.355)
+2023-01-02 12:56:37.644[1672660597644] | INFO  | main       | c.t.CicdTestProjectApplication       - Starting CicdTestProjectApplication using Java 17.0.3.1 with PID 5982 (/Users/chikaagbo/cicd_test_app/target/classes started by chikaagbo in /Users/chikaagbo/cicd_test_app)
+2023-01-02 12:56:37.647[1672660597647] | INFO  | main       | c.t.CicdTestProjectApplication       - No active profile set, falling back to 1 default profile: "default"
+2023-01-02 12:56:38.403[1672660598403] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat initialized with port(s): 8088 (http)
+2023-01-02 12:56:38.414[1672660598414] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Initializing ProtocolHandler ["http-nio-8088"]
+2023-01-02 12:56:38.415[1672660598415] | INFO  | main       | o.a.catalina.core.StandardService    - Starting service [Tomcat]
+2023-01-02 12:56:38.415[1672660598415] | INFO  | main       | o.a.catalina.core.StandardEngine     - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02 12:56:38.502[1672660598502] | INFO  | main       | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring embedded WebApplicationContext
+2023-01-02 12:56:38.503[1672660598503] | INFO  | main       | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 818 ms
+2023-01-02 12:56:39.065[1672660599065] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Starting ProtocolHandler ["http-nio-8088"]
+2023-01-02 12:56:39.085[1672660599085] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat started on port(s): 8088 (http) with context path ''
+2023-01-02 12:56:39.096[1672660599096] | INFO  | main       | c.t.CicdTestProjectApplication       - Started CicdTestProjectApplication in 1.739 seconds (process running for 2.704)
+2023-01-02 12:58:45.247[1672660725247] | INFO  | http-nio-8088-exec-1 | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02 12:58:45.247[1672660725247] | INFO  | http-nio-8088-exec-1 | o.s.web.servlet.DispatcherServlet    - Initializing Servlet 'dispatcherServlet'
+2023-01-02 12:58:45.250[1672660725250] | INFO  | http-nio-8088-exec-1 | o.s.web.servlet.DispatcherServlet    - Completed initialization in 3 ms
+2023-01-02 12:59:32.473[1672660772473] | INFO  | main       | o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.test_cicd.CicdTestProjectApplicationTests]: CicdTestProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-01-02 12:59:32.571[1672660772571] | INFO  | main       | o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.test_cicd.CicdTestProjectApplication for test class com.test_cicd.CicdTestProjectApplicationTests
+2023-01-02 12:59:32.893[1672660772893] | WARN  | main       | o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chikaagbo/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/chikaagbo/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-01-02 12:59:32.911[1672660772911] | INFO  | main       | c.t.CicdTestProjectApplicationTests  - Starting CicdTestProjectApplicationTests using Java 19 with PID 6363 (started by chikaagbo in /Users/chikaagbo/cicd_test_app)
+2023-01-02 12:59:32.912[1672660772912] | INFO  | main       | c.t.CicdTestProjectApplicationTests  - No active profile set, falling back to 1 default profile: "default"
+2023-01-02 12:59:34.144[1672660774144] | INFO  | main       | c.t.CicdTestProjectApplicationTests  - Started CicdTestProjectApplicationTests in 1.439 seconds (process running for 2.529)

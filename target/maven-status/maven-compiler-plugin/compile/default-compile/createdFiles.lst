@@ -1,2 +1,3 @@
-com/test_cicd/CicdTestProjectApplication.class
+com/test_cicd/controller/GameController.class
 com/test_cicd/controller/AppController.class
+com/test_cicd/CicdTestProjectApplication.class
