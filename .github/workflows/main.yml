@@ -1,5 +1,5 @@
 
-name: Deploy App to ECR
+name: Deploy App to AWS ECR 
 
 on:
  
